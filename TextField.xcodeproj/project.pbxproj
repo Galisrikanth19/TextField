@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		2DE25E8B2934E04C00116472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25E8A2934E04C00116472 /* AppDelegate.swift */; };
 		2DE25E8D2934E04C00116472 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25E8C2934E04C00116472 /* SceneDelegate.swift */; };
-		2DE25E8F2934E04C00116472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25E8E2934E04C00116472 /* ViewController.swift */; };
 		2DE25E922934E04C00116472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE25E902934E04C00116472 /* Main.storyboard */; };
 		2DE25E942934E04D00116472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE25E932934E04D00116472 /* Assets.xcassets */; };
 		2DE25E972934E04D00116472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE25E952934E04D00116472 /* LaunchScreen.storyboard */; };
+		2DE25EA32934E0EA00116472 /* BackspaceTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25EA22934E0EA00116472 /* BackspaceTextField.swift */; };
+		2DE25EA52934E12400116472 /* VerificationCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25EA42934E12400116472 /* VerificationCodeVC.swift */; };
+		2DE25EA82934E33100116472 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE25EA72934E33100116472 /* Colors.xcassets */; };
+		2DE25EC92934E38600116472 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25EB92934E38600116472 /* UIColorExtensions.swift */; };
+		2DE25ECB2934EC0800116472 /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25ECA2934EC0800116472 /* UITextFieldExtensions.swift */; };
+		2DE25ECD2934EC7400116472 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25ECC2934EC7400116472 /* ForgotPasswordVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DE25E872934E04C00116472 /* TextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE25E8A2934E04C00116472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DE25E8C2934E04C00116472 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DE25E8E2934E04C00116472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DE25E912934E04C00116472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DE25E932934E04D00116472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DE25E962934E04D00116472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DE25E982934E04D00116472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE25EA22934E0EA00116472 /* BackspaceTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackspaceTextField.swift; sourceTree = "<group>"; };
+		2DE25EA42934E12400116472 /* VerificationCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationCodeVC.swift; sourceTree = "<group>"; };
+		2DE25EA72934E33100116472 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		2DE25EB92934E38600116472 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		2DE25ECA2934EC0800116472 /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		2DE25ECC2934EC7400116472 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +68,66 @@
 			children = (
 				2DE25E8A2934E04C00116472 /* AppDelegate.swift */,
 				2DE25E8C2934E04C00116472 /* SceneDelegate.swift */,
-				2DE25E8E2934E04C00116472 /* ViewController.swift */,
-				2DE25E902934E04C00116472 /* Main.storyboard */,
-				2DE25E932934E04D00116472 /* Assets.xcassets */,
+				2DE25EA02934E09F00116472 /* SourceCode */,
+				2DE25EA12934E0BE00116472 /* HelperClasses */,
+				2DE25EA92934E38600116472 /* Extensions */,
+				2DE25EA62934E32200116472 /* Resources */,
 				2DE25E952934E04D00116472 /* LaunchScreen.storyboard */,
 				2DE25E982934E04D00116472 /* Info.plist */,
 			);
 			path = TextField;
+			sourceTree = "<group>";
+		};
+		2DE25E9E2934E08900116472 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DE25EA42934E12400116472 /* VerificationCodeVC.swift */,
+				2DE25ECC2934EC7400116472 /* ForgotPasswordVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2DE25E9F2934E09600116472 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DE25E902934E04C00116472 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DE25EA02934E09F00116472 /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				2DE25E9E2934E08900116472 /* Controller */,
+				2DE25E9F2934E09600116472 /* View */,
+			);
+			path = SourceCode;
+			sourceTree = "<group>";
+		};
+		2DE25EA12934E0BE00116472 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2DE25EA22934E0EA00116472 /* BackspaceTextField.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		2DE25EA62934E32200116472 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DE25E932934E04D00116472 /* Assets.xcassets */,
+				2DE25EA72934E33100116472 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DE25EA92934E38600116472 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DE25EB92934E38600116472 /* UIColorExtensions.swift */,
+				2DE25ECA2934EC0800116472 /* UITextFieldExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DE25E972934E04D00116472 /* LaunchScreen.storyboard in Resources */,
+				2DE25EA82934E33100116472 /* Colors.xcassets in Resources */,
 				2DE25E942934E04D00116472 /* Assets.xcassets in Resources */,
 				2DE25E922934E04C00116472 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE25E8F2934E04C00116472 /* ViewController.swift in Sources */,
+				2DE25EA32934E0EA00116472 /* BackspaceTextField.swift in Sources */,
+				2DE25EA52934E12400116472 /* VerificationCodeVC.swift in Sources */,
 				2DE25E8B2934E04C00116472 /* AppDelegate.swift in Sources */,
+				2DE25ECB2934EC0800116472 /* UITextFieldExtensions.swift in Sources */,
+				2DE25ECD2934EC7400116472 /* ForgotPasswordVC.swift in Sources */,
 				2DE25E8D2934E04C00116472 /* SceneDelegate.swift in Sources */,
+				2DE25EC92934E38600116472 /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
